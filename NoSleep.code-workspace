@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "NoSleep-Core"
+		},
+		{
+			"path": "NoSleep-PIX-Component"
+		}
+	],
+	"settings": {
+		"powershell.cwd": "c:\\repositories\\NoSleep"
+	}
+}
