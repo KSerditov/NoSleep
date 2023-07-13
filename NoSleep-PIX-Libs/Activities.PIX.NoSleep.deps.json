@@ -1,0 +1,76 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Activities.PIX.NoSleep/1.0.0": {
+        "dependencies": {
+          "NoSleep": "1.0.0",
+          "Core": "1.0.0.0"
+        },
+        "runtime": {
+          "Activities.PIX.NoSleep.dll": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/6.0.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.422.16404"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.422.16404"
+          }
+        }
+      },
+      "NoSleep/1.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "6.0.1"
+        },
+        "runtime": {
+          "NoSleep.dll": {}
+        }
+      },
+      "Core/1.0.0.0": {
+        "runtime": {
+          "Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Activities.PIX.NoSleep/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Win32.SystemEvents/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AlsaDWyQHLFB7O2nfbny0x0oziB34WWzGnf/4Q5R8KjXhu8MnCsxE2MIePr192lIIaxarfTLI9bQg+qtmM+9ag==",
+      "path": "microsoft.win32.systemevents/6.0.1",
+      "hashPath": "microsoft.win32.systemevents.6.0.1.nupkg.sha512"
+    },
+    "NoSleep/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Core/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
