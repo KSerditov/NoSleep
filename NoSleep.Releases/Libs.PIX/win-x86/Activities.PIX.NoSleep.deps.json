@@ -1,0 +1,37 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1/win-x86",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {},
+    ".NETCoreApp,Version=v3.1/win-x86": {
+      "Activities.PIX.NoSleep/1.0.0": {
+        "dependencies": {
+          "NoSleep.Core": "1.0.0"
+        },
+        "runtime": {
+          "Activities.PIX.NoSleep.dll": {}
+        }
+      },
+      "NoSleep.Core/1.0.0": {
+        "runtime": {
+          "NoSleep.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Activities.PIX.NoSleep/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NoSleep.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

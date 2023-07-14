@@ -1,7 +1,7 @@
 ﻿using System;
 using BR.Core;
 using BR.Core.Attributes;
-using NoSleep;
+using NoSleep.Core;
 
 namespace Activities.PIX.NoSleep
 {

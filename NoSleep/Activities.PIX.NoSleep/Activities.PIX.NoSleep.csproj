@@ -2,17 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <SelfContained>false</SelfContained>
   </PropertyGroup>
 
   <ItemGroup>
-  <Reference Include="Core">
-    <HintPath>.\3rdparty\Core.dll</HintPath>
-  </Reference>
-</ItemGroup>
+    <Reference Include="Core">
+      <HintPath>.\3rdparty\PIX\Core.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NoSleep-Core\NoSleep.csproj" />
+    <ProjectReference Include="..\NoSleep.Core\NoSleep.Core.csproj" />
   </ItemGroup>
 
 </Project>
