@@ -41,10 +41,10 @@ There is pre-compiled activity for PIX Robotics that can be directly used.
 1. Copy the contents of [PIX Libraries](./NoSleep.Releases/Libs.PIX/) for target architecture into PIX RPA installation folder.
 2. Restart PIX Studio and you'll find new activities:
    
-   ![image](https://github.com/KSerditov/NoSleep/assets/3009597/209cd8d5-95fc-4ab6-b748-5fc8fd67cb2a)
+![image](https://github.com/KSerditov/NoSleep/assets/3009597/97bc3501-38e5-4f09-9abe-86fb943de031)
 
 3. At the start of the execution, use the NoSleep Launcher, and call NoSleep Stopper at the end (preferably in the final 'Finally' block):
    
-   ![image](https://github.com/KSerditov/NoSleep/assets/3009597/46654b8d-bb25-4476-981f-acc5d31d6648)
+![image](https://github.com/KSerditov/NoSleep/assets/3009597/03461fa8-c6b0-4c10-b17d-4ab6f34ab278)
 
-5. You can also use the [PIX-DemoProject](./PIX-DemoProject) to test if it's working. Remember to adjust the number of iterations and the duration of the 'Waiting' block to cover the time required to reproduce the issue.
+4. You can also use the [PIX-DemoProject](./PIX-DemoProject) to test if it's working. Remember to adjust the number of iterations and the duration of the 'Waiting' block to cover the time required to reproduce the issue.
