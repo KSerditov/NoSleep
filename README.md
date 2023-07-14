@@ -6,7 +6,7 @@
 .NET code and components to prevent entering sleep/power save mode on Windows for use with RPA tools or standalone.
 
 # Diagnostics
-Before applying the code or integrating it into your solution, it is better to make sure that you really having the sleep/power save issue. To do so, use pre-compiled executables from NoSleep.Releases/Executables folder:
+Before applying the code or integrating it into your solution, it is better to make sure that you really having the sleep/power save issue. To do so, use pre-compiled executables from [Executables](./NoSleep.Releases/Executables/) folder:
 1. Copy the executable that fits your installed .NET Runtime.
 2. Launch it from the command line using the following syntax:
 ```
@@ -37,7 +37,7 @@ Press ENTER to shutdown.
 
 # Using activity for PIX Robotics
 There is pre-compiled activity for PIX Robotics that can be directly used.
-1. Copy content of NoSleep.Releases/Libs.PIX/(architecture)/ into PIX RPA installation folder.
+1. Copy content of [PIX Libraries](./NoSleep.Releases/Libs.PIX/) into PIX RPA installation folder.
 2. Restart the PIX Studio and you should see the new activities:
    
    ![image](https://github.com/KSerditov/NoSleep/assets/3009597/209cd8d5-95fc-4ab6-b748-5fc8fd67cb2a)
