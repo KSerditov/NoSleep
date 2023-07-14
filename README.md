@@ -1,3 +1,7 @@
+- [Overview](#nosleep-overview)
+- [Diagnostics](#diagnostics)
+- [Using activity for PIX Robotics](#using-activity-for-pix-robotics)
+
 # NoSleep Overview
 .NET code and components to prevent entering sleep/power save mode on Windows for use with RPA tools or standalone.
 
